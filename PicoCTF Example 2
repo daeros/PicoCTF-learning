@@ -1,0 +1,10 @@
+print("To find number is even or odd")
+print("Enter the number ")
+def is_even():
+  my_number=int(input())
+  if(my_number % 2 == 0):
+    print("Even")
+  else:
+    print("Odd")
+
+is_even()
